@@ -1,0 +1,10 @@
+.loading-page{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loading-page h1{
+	font-size: 2rem;
+	font-weight: bold;
+}

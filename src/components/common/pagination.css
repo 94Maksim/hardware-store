@@ -1,0 +1,25 @@
+.pagination{
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+	list-style: none;
+}
+.pagination-off{
+	display: none;
+}
+.page-item{
+	margin: 5px;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+}
+.page-link{
+	font-size: 1rem;
+	background-color: rgba(0, 0, 0, 0);
+	height: 40px;
+	width: 40px;
+	color: inherit;
+}
+.active{
+	background-color: #334daa;
+	color: white;
+}

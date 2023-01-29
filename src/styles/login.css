@@ -1,0 +1,94 @@
+.login-page{
+	padding: 50px 10px;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.login-page__container{
+	width: 60%;
+	box-shadow: 0 0 20px #555555;
+	padding: 20px;
+	border-radius: 3px;
+}
+.login-page__container h1{
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.login-page__form{
+	width: 100%;
+}
+.login-page__text{
+	width: 100%;
+}
+.login-page__text label{
+	display: block;
+	margin-bottom: 10px;
+}
+.login-page__text input{
+	display: block;
+	padding: 10px;
+	font-size: 1.1rem;
+	width: 100%;
+	border: 1px solid #f2f2f2;
+	border-radius: 3px;
+}
+.login-page__text ::placeholder{
+	font-size: 0.8rem;
+	opacity: 0.5;
+}
+.login-page__text div{
+	height: 10px;
+	margin-bottom: 10px;
+}
+.login-page__text span{
+	color: red;
+	font-size: 0.6rem;
+}
+.login-page__buttons{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.login-page__buttons button:disabled{
+	background: #999;
+	border: none;
+}
+.login-page__buttons button{
+	padding: 8px 16px;
+	border-radius: 3px;
+	color: white;
+	background: #334daa;
+	position: relative;
+    overflow: hidden;
+	transition: background-color 0.3s ease 0s;
+}
+.login-page__buttons button:hover {
+    background: #334daa;
+}
+.login-page__buttons span{
+	font-size: 0.8rem;
+	cursor: pointer;
+	color: #334DAA;
+	margin-right: 10px;
+}
+
+
+@media (max-width:900px) {
+	.login-page__container{
+		width: 90%;
+	}
+}
+@media (max-width:500px) {
+	.login-page__container{
+		width: 100%;
+	}
+}
+@media (max-width:400px) {
+	.login-page__container{
+		box-shadow: none;
+		padding: 5px;
+		border-radius: 3px;
+	}
+}

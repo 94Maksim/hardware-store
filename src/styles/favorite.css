@@ -1,0 +1,25 @@
+.favorite-page {
+	margin: 30px 10px;
+}
+.favorite-page-clear {
+	text-align: right;
+	margin-bottom: 30px;
+}
+.favorite-page-clear button{
+	background-color: inherit;
+}
+.favorite-page h1 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.favorite-container {
+	width: 100%;
+}
+
+.favorite-page-null{
+	min-height: 100vh;
+	text-align: center;
+	margin: 30px;
+}

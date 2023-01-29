@@ -1,0 +1,18 @@
+.main {
+    min-height: 100vh;
+	padding: 30px 0;
+}
+.main__container-h1{
+	margin: 0 0 30px 0;
+	font-weight: bold;
+	text-align: center;
+}
+.main__container{
+	
+}
+.main__container-list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
